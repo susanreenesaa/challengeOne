@@ -1,0 +1,131 @@
+body {
+  font-family: Verdana, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  background-color: #f1f1f1;
+  height: 100%; /* Full height */
+  position: fixed; /* Make it stick, even on scroll */
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+nav {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 20px;
+  width: 250px;
+  background-color: #f1f1f1;
+  height: 100%; /* Full height */
+  position: fixed; /* Make it stick, even on scroll */
+}
+nav ul a {
+  text-decoration: none;
+  color: black;
+}
+nav ul a li {
+  padding: 10px 20px;
+  font-size: 18px;
+}
+nav header {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-weight: bold;
+  font-size: 22px;
+  border-bottom: 1.5px solid black;
+}
+.outer-container {
+  margin-left: 250px;
+  padding: 0px 16px;
+}
+
+nav ul a:hover li {
+  background-color: #555;
+  color: white;
+}
+
+nav ul a.active {
+  background-color: #4caf50;
+  color: white;
+}
+nav li {
+  text-align: left;
+  border-bottom: 1.5px solid black;
+}
+/* li:first-child {
+  border-top: 1.5px solid black;
+} */
+h1 {
+  text-align: center;
+}
+.htmltags {
+  background-color: rgb(196, 192, 192);
+}
+.w3-example {
+  background-color: #f1f1f1;
+  padding: 0.01em 16px;
+}
+.w3-code,
+.w3-example {
+  margin: 20px 0;
+}
+.w3-code {
+  font-family: Consolas, "courier new";
+  font-size: 16px;
+  width: auto;
+  background-color: white;
+  padding: 8px 12px;
+  word-wrap: sbreak-word;
+}
+.highELE {
+  color: brown;
+}
+.highLT,
+.highGT {
+  color: blue;
+}
+.highATT {
+  color: red;
+}
+.table {
+  min-width: 100%;
+  display: table;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+table,
+th,
+td {
+  border: none;
+}
+.w3-bordered tr,
+.w3-table-all tr {
+  border-bottom: 1px solid #ddd;
+}
+.w3-table-all tr:nth-child(even) {
+  background-color: rgb(214, 209, 209);
+}
+
+.w3-table-all td,
+.w3-table-all th,
+.w3-table-all th:first-child,
+.w3-table-all td:first-child {
+  padding: 8px;
+  margin: 0;
+}
+.w3-table td,
+.w3-table th,
+.w3-table-all td,
+.w3-table-all th {
+  display: table-cell;
+  text-align: left;
+  vertical-align: top;
+}
